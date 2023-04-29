@@ -1,0 +1,17 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+@import './variables';
+
+@import './utilities/animation';
+
+@import './globals';
+
+// components
+@import './components/header';
+@import './components/hero';
+@import './components/about';
+@import './components/Bureaus';
+@import './components/News';
+@import './components/footer';
+@import './components/WebTeam';

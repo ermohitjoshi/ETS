@@ -1,0 +1,48 @@
+.webcard{
+    display: flex;
+    width: 100%;
+    img{
+        height: 10rem;
+        width: 10rem;
+        border-radius: 50%;
+    }
+
+    #mohit{
+        border: 3px solid red;
+    }
+    #pundirsir{
+        border: 3px solid red;
+    }
+
+    p,h4{
+        margin-left: 30%;
+    }
+
+    .detail{
+        position: relative;
+        text-align: center;
+        width: 30%;
+    }
+}
+
+.webteam{
+    display: flex;
+    flex-flow: row;
+    margin-left: 8%;
+}
+
+@media screen and (max-width: 767px){
+    .webteam{
+        display: flex;
+        flex-flow: column;
+        margin-left: 8%;
+        padding: 5%;
+    }  
+     
+    .webcard{
+        padding: 5%;
+        width: 200%;
+    }
+    .detail{
+    }
+}

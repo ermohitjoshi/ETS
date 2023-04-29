@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@700&display=swap'); 
+.hero 
+{
+  .heroImg {
+    position: relative;
+
+    img {
+      width: 40rem;
+    }
+  
+      // &::before {
+      //   position: absolute;
+      //   content: '';
+      //   top: clamp(84px, 15vw, 120px);
+      //   left: 25vw;
+      //   width: 28.4vw;
+      //   height: 54vw;
+      //   max-height: 324px;
+      //   background-color: $soft-blue;
+      //   border-radius: 50% 50% 30% 30%;
+      //   z-index: -1;
+      //   right: 0;
+      // }
+  
+  }
+
+  .content {
+    justify-content: center;
+    margin: auto;
+
+    h1 {
+      font-size: 3rem;
+      font-family: 'Inria Serif', serif;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero {
+    .heroImg {
+      img {
+        width: 100%;
+      }
+
+      &::before {
+        width: auto;
+      }
+    }
+
+    .content {
+      margin-top: 3rem;
+      text-align: center;
+
+      button {
+        font-size: 0.875rem;
+      }
+    }
+  }
+}

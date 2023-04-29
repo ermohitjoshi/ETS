@@ -1,0 +1,126 @@
+nav {
+  position: absolute;
+  font-weight: 600;
+
+  .navMenu {
+    display: flex;
+    a {
+      color: $dark-blue;
+      font-size: 0.9rem;
+      letter-spacing: 2px;
+
+      &:hover {
+        color: blue;
+        transition: 0.4s ease-in-out;
+      }
+    }
+  }
+
+  .navLogo{
+    height: 6rem;
+  }
+
+  .togglerButton {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  nav {
+    z-index: 999;
+
+    .navMenu {
+      display: none;
+    }
+
+    .togglerButton {
+      display: block;
+      button {
+        background: transparent;
+      }
+    }
+  
+
+    .mobileNav {
+      position: absolute;
+
+      .d-fixed {
+        position: fixed;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: rgba(37, 43, 70, 0.95);
+        padding-top: 3rem;
+        height: 100vh;
+
+        .navbar-nav {
+          text-align: center;
+          padding-top: 2rem;
+          width: 85%;
+          margin: 0 auto;
+
+          .nav-item {
+            border-top: 1px solid $grayish-blue;
+            margin-right: 0 !important;
+            padding: 0.8rem 0;
+
+            &:last-child {
+              border-bottom: 1px solid $grayish-blue;
+            }
+
+            a {
+              color: $white;
+
+              &:hover {
+                color: blue;
+              }
+            }
+          }
+        }
+
+
+        .mobileLogo {
+          width: 100%;
+          display: flex;
+
+          .logo {
+            height: auto;
+            padding-left: 2rem;
+
+            img {
+              width: 4rem;
+              height: 100%;
+            }
+          }
+
+          button {
+            background: transparent;
+            margin-top: 0;
+            height: 2.3rem;
+
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+
+        .social-icons {
+          text-align: center;
+          margin-top: 20%;
+
+          img {
+            width: 1.5rem;
+            cursor: pointer;
+
+            &:hover {
+              opacity: 0.7;
+            }
+          }
+        }
+      }
+    }
+  }
+}

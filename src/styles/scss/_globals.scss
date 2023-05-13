@@ -13,6 +13,7 @@ html:focus-within {
 body {
   font-size: 1.125rem;
   font-family: $font-family;
+  overflow-x: hidden;
 }
 
 a {
@@ -39,7 +40,7 @@ button {
   &:focus,
   &:hover {
     outline: none;
-    background: transparent !important;
+    // background: transparent !important;
   }
 
   &:focus-visible {
@@ -49,6 +50,9 @@ button {
 }
 
 @media screen and (max-width: 767px) {
+
+  body{
+  }
   button {
     padding: 0.5rem 1rem;
   }

@@ -1,5 +1,9 @@
 import GauravPathakSir from '../assets/images/pathaksir.jpg';
-import Soon from '../assets/images/comingsoon.png';
+import AnjaliMam from '../assets/images/anjaliMam.jpg';
+import AviSir from '../assets/images/avisir.jpg';
+import SunilSir from '../assets/images/sunilsir.jpeg';
+import ParagSir from '../assets/images/paragsir.jpg';
+// import Soon from '../assets/images/comingsoon.png';
 
 export const bureausData = [
   {
@@ -14,7 +18,7 @@ export const bureausData = [
     button: 'More Info',
   },
   {
-    img: Soon,
+    img: ParagSir ,
     key: 'CB',
     title: 'Cultural Bureau',
     title2: 'Cultural Bureau',
@@ -25,7 +29,7 @@ export const bureausData = [
     button: 'More Info',
   },
   {
-    img: Soon,
+    img: SunilSir,
     key: 'LOG',
     title: 'Logistics',
     title2: 'Logistics',
@@ -36,23 +40,23 @@ export const bureausData = [
     button: 'More Info',
   },
   {
-    img: Soon,
+    img: AviSir,
     key: 'SB',
     title: 'Sports Bureau',
     title2: 'Sports Bureau',
     details:
-      '',
-    vcname: 'Harshit Chaudhary',
+      'Sports Bureau is registered under the Engineering and Technology Society of College of Technology, Pantnagar. Sports Bureau assist students to cultivate a sense of unity and working with others in reaching the same goals. Students develop social skills.It facilitate students to meet, mix, and work together with other students from different backgrounds in a diverse environment. ROLE AS DISCIPLINE COMMITTE      Discipline is the bridge between goals and accomplishment. The Sports Bureau acts as the Disciple committee of all college events.      	The Discipline Committees constituted for the maintenance of   discipline to inculcate professionalism among students by creating a safe and motivating atmosphere in events. The committee aims to have a positive approach in imparting discipline among students.      ',
+    vcname: 'Avi Sharma',
     post: 'Vice-Chairman, ETS',
     button: 'More Info',
   },
   {
-    img: Soon,
+    img: AnjaliMam,
     key: 'SLB',
     title: 'The SLB',
     title2: 'The Science and Literary Bureau',
     details:
-      'Hello juniors, hope you are doing great! The time has come to leave your procrastination behind and get to know your college better. There are some amazing bureaus for your all-round development and one such bureau is The Science and Literary bureau. Want to get better or best? Scrolling Instagram and watching podcasts….Nay!! Instead grab this opportunity to know The SLB and get your hands dirty on some practical exposure. Wondering what is this “The“ bureau I am talking about? Give your 5 minutes and read it below: The Science and Literary bureau  A well equipped bureau with meticulous framework and amazingly friendly seniors, who will guide you throughout your journey. Ample Chances to discover your inner talents, of brushing up your skills to showcase yourself, learning management skills and team work via organizing events in a most earnest way. Always a comfortable say for new ideas and warm space for appreciation and goodwill. Since small but consistent effort is the key, be in the right place at the right time and make it your next big move!      Fest conducted by the SLB: 1. Litrosphere :  The Science and Literary fest of College of Technology, Pantnagar (INTER COLLEGE AND INTER BRANCH FEST) Events name with their tag line The Litrosphere Quiz - General Quiz, Wizospo - The Sports Quiz, Sci-Q - The Science Quiz, The Big Fight - Group Discussion, Shabdastra - The Hindi Debate, Fantasia - Creative Writing Competition, M.A.D - Informal Events, Sales Appeal - The Advertising Fun',
+      "I am excited to introduce you to the Science and Literary Bureau, a vibrant community of like-minded individuals who are passionate about science and literature. Our bureau is registered under the Engineering and Technology Society of College of Technology, Pantnagar, and we welcome students from all departments and backgrounds to join us.      At the Science and Literary Bureau, we believe that every individual has the potential to excel and create a lasting impact in the world. We are a group of diverse individuals who come together to appreciate each other's talents and qualities and work towards a common goal.     Our flagship event, Litrosphere, is the grand congregation of more than 2000 students and experts from academia. It is a platform for every erformer, artist, and speaker to showcase their skills and explore their creativity. The impressive cocktail of events includes core literary events like debates, group discussions, and quizzes, along with fun events like sales appeal and dumb charades.     ",
       vcname: 'Anjali Pandey',
       post: 'Vice-Chairman, ETS',
     button: 'More Info',

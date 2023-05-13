@@ -7,6 +7,7 @@ import { Hero } from './components/Hero/Hero';
 import { AboutETS} from './components/AboutETS/About';
 import { Clubs } from './components/Clubs/Clubs';
 import { WebTeam } from './components/WebTeam/WebTeam';
+import ColoEvents from './components/ColoEvents/ColoEvents';
 
 export const App = () => {
   return (
@@ -17,6 +18,7 @@ export const App = () => {
       <Bureaus />
       <Clubs/>
       <WebTeam/>
+      <ColoEvents/>
       <News />
       <Footer />
     </>

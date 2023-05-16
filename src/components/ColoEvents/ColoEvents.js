@@ -52,7 +52,7 @@ function ColoEvents() {
     <div class="flip-card-back">
       <h1>Afaceri</h1>
       <p>The event focusses on improving the critical thinking abilities, managerial skills and business perspective of an individual. This event is divided inot three rounds</p>
-      <a href="/#" target="_blank"> <button className="regibutton">Register</button> </a>
+      <a href="https://forms.gle/QmJPbs6WrJAQkfyE8" target="_blank"> <button className="regibutton">Register</button> </a>
     </div>
   </div>
 </div>
